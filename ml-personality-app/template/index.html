@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personality Prediction</title>
+</head>
+<body>
+    {% if prediction %}
+        <!-- Show the prediction result -->
+        <h2>Personality Prediction Result</h2>
+        <p>Your personality is predicted to be: <strong>{{ prediction }}</strong></p>
+        <a href="/">Predict Again</a>
+    {% else %}
+        <!-- Show the input form -->
+        <h2>Enter your features</h2>
+        <form action="/predict" method="post">
+            Age: <input type="number" name="Age" step="any" required><br><br>
+            Openness: <input type="number" name="Openness" step="any" required><br><br>
+            Conscientiousness: <input type="number" name="Conscientiousness" step="any" required><br><br>
+            Extraversion: <input type="number" name="Extraversion" step="any" required><br><br>
+            Agreeableness: <input type="number" name="Agreeableness" step="any" required><br><br>
+            Neuroticism: <input type="number" name="Neuroticism" step="any" required><br><br>
+            Stage_fear (0 for No, 1 for Yes): <input type="number" name="Stage_fear" min="0" max="1" required><br><br>
+            <input type="submit" value="Predict Personality">
+        </form>
+    {% endif %}
+</body>
+</html>

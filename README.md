@@ -26,7 +26,7 @@ Shape : 2901 rows × 8 features
 
 Features :
 
-  *Time_spent_Alone → Hours spent alone per week
+  * Time_spent_Alone → Hours spent alone per week
   
   * Stage_fear → Confidence in public speaking
   

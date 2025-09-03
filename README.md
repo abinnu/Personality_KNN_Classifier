@@ -107,16 +107,20 @@ Once the container is running, open your browser and visit:http://localhost:5000
 
 🤝 Contribution :
 
-Contributions are welcome! 🎉
+Contributions are welcome! 🎉,
 If you'd like to improve this project:
 
 Fork the repository 🍴
+
 Create a feature branch
+
 Submit a pull request 🚀
 
 
 👨‍💻 Author :
 
 Abinnu John Peter.P
+
 📧 Email: abinnu75@gmail.com
+
 🔗 LinkedIn : www.linkedin.com/in/abinnu

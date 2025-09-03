@@ -107,8 +107,7 @@ Once the container is running, open your browser and visit:http://localhost:5000
 
 🤝 Contribution :
 
-Contributions are welcome! 🎉,
-If you'd like to improve this project:
+Contributions are welcome! 🎉,If you'd like to improve this project
 
 Fork the repository 🍴
 

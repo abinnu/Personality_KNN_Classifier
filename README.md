@@ -49,7 +49,44 @@ Target:
 * Deployment → Docker
 
 
+Overall Metrics
 
-Target:
+Accuracy = 92% ✅
+Macro Avg Precision = 92%
+Macro Avg Recall = 92%
+Macro Avg F1-score = 92%
+Weighted Avg Precision = 92%
+Weighted Avg Recall = 92%
+Weighted Avg F1-score = 92%
 
-Personality → Introvert 🧘‍♂️ or Extrovert 🗣️
+
+🌐 Deployment (Dockerized)
+
+You can deploy the app using Docker for real-time personality predictions.
+
+1️⃣ Build Docker Image
+docker build -t ml-personality-app .
+
+2️⃣ Run Docker Container
+docker run -d -p 5000:5000 ml-personality-app
+
+3️⃣ Access the Application
+Once the container is running, open your browser and visit:
+http://localhost:5000
+
+
+🤝 Contribution
+
+Contributions are welcome! 🎉
+If you'd like to improve this project:
+
+Fork the repository 🍴
+Create a feature branch
+Submit a pull request 🚀
+
+
+👨‍💻 Author
+
+Abinnu John Peter.P
+📧 Email: abinnu75@gmail.com
+🔗 LinkedIn : www.linkedin.com/in/abinnu
